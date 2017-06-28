@@ -12,6 +12,8 @@
 		CA1DA9C21F044E20006375EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1DA9C01F044E20006375EE /* Main.storyboard */; };
 		CA1DA9C41F044E20006375EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1DA9C31F044E20006375EE /* Assets.xcassets */; };
 		CA1DA9C71F044E20006375EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1DA9C51F044E20006375EE /* LaunchScreen.storyboard */; };
+		CA58BAFC1F046A1F006B45D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA58BAFB1F046A1E006B45D7 /* art.scnassets */; };
+		CA58BAFE1F046AAF006B45D7 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58BAFD1F046AAF006B45D7 /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CA1DA9C31F044E20006375EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1DA9C61F044E20006375EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA1DA9C81F044E20006375EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA58BAFB1F046A1E006B45D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../../../Downloads/Simple-ARKit-Game-master/ARKitGame/art.scnassets"; sourceTree = "<group>"; };
+		CA58BAFD1F046AAF006B45D7 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				CA1DA9BC1F044E20006375EE /* AppDelegate.swift */,
 				CA1DA9BE1F044E20006375EE /* ViewController.swift */,
+				CA58BAFD1F046AAF006B45D7 /* SpaceShip.swift */,
 				CA1DA9C01F044E20006375EE /* Main.storyboard */,
+				CA58BAFB1F046A1E006B45D7 /* art.scnassets */,
 				CA1DA9C31F044E20006375EE /* Assets.xcassets */,
 				CA1DA9C51F044E20006375EE /* LaunchScreen.storyboard */,
 				CA1DA9C81F044E20006375EE /* Info.plist */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA1DA9C71F044E20006375EE /* LaunchScreen.storyboard in Resources */,
+				CA58BAFC1F046A1F006B45D7 /* art.scnassets in Resources */,
 				CA1DA9C41F044E20006375EE /* Assets.xcassets in Resources */,
 				CA1DA9C21F044E20006375EE /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA58BAFE1F046AAF006B45D7 /* SpaceShip.swift in Sources */,
 				CA1DA9BF1F044E20006375EE /* ViewController.swift in Sources */,
 				CA1DA9BD1F044E20006375EE /* AppDelegate.swift in Sources */,
 			);
@@ -312,6 +320,7 @@
 				CA1DA9CD1F044E20006375EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
