@@ -41,8 +41,8 @@ class ViewController: UIViewController {
         let ship = SpaceShip()
         ship.loadModel()
 
-        let xPos = randomPosition(lowerBound: -1.5, upperBound: 1.5)
-        let yPos = randomPosition(lowerBound: -1.5, upperBound: 1.5)
+        let xPos = randomPosition(lowerBound: -1, upperBound: 1)
+        let yPos = randomPosition(lowerBound: -1, upperBound: 1)
 
         ship.position = SCNVector3(xPos, yPos, -1)
 
